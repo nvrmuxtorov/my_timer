@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+font-size: 78px;
+font-weight: 700;
+line-height: 59px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+h2{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center; 
+}
+h2 button{
+    width: 15px;
+}
+h2 button:nth-of-type(odd){
+    background-color: green;
+}
+h2 button:nth-of-type(even){
+    background-color: red;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+.btn button{
+    width:80px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+}
+.btn button:active{
+box-shadow: 1px .5px 1px .5px rgb(23, 29, 23);
+}
+
+
+.btn button:first-child{
+    background-color: green;
+}
+.btn button:nth-child(2){
+    background-color: yellow;
+}
+.btn button:nth-child(3){
+    background-color: rgb(0, 183, 255);
+}
+
+.btn button:nth-child(4){
+    background-color: red;
+}
+.btn button:nth-child(5){
+    background-color: gold;
+}
+
+
+#interval_times,#finish{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center; 
+}
